@@ -24,6 +24,7 @@ public class Main {
         System.out.printf("值: %d | 耗时: %dms\n", Result1, Time1);
         System.out.println("-----------------------------------");
 
+
         // 测试不同线程数
         for (int i = 0; i < threadCounts.length; i++) {
             int threadCount = threadCounts[i];
@@ -45,6 +46,7 @@ public class Main {
 
             System.out.println(check + " " + threadCount + "线程: " + result +
                     " | 耗时: " + time + "ms" );
+            System.out.println("-----------------------------------");
         }
 
 
