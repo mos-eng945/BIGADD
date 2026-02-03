@@ -10,6 +10,7 @@ public class Main {
         int[] testThread = {4,6,8,16,24,32};
         testWithThreadCounts(hugeArray, testThread);
         System.out.println("-----------------------------------");
+        System.out.println("单线程并行求和程序启动");
     }
 
     public static void testWithThreadCounts(int[] array, int[] threadCounts) {
