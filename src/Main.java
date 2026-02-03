@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("大数组并行求和程序启动");
+        System.out.println("-----------------------------------");
 
         // 生成测试数据
         int size = 500000000;  // 5亿
         ArrayGenerator a =new ArrayGenerator();
         int[] hugeArray = a.generateHugeArray(size);
-
         // 测试不同线程数的性能
         int[] testThread = {4,6,8,16,24,32};
         testWithThreadCounts(hugeArray, testThread);
