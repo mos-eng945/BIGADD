@@ -9,6 +9,7 @@ public class Main {
         // 测试不同线程数的性能
         int[] testThread = {4,6,8,16,24,32};
         testWithThreadCounts(hugeArray, testThread);
+        System.out.println("-----------------------------------");
     }
 
     public static void testWithThreadCounts(int[] array, int[] threadCounts) {
