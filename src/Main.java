@@ -3,6 +3,7 @@ public class Main {
         System.out.println("大数组并行求和程序启动");
         System.out.println("-----------------------------------");
 
+
         // 生成测试数据
         int size = 500000000;  // 5亿
         ArrayGenerator a =new ArrayGenerator();
