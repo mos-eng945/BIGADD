@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("大数组并行求和程序启动");
         System.out.println("-----------------------------------");
+        System.out.println("本程序会生成一个 5亿 大的数组，并计算数组的和1");
 
 
         // 生成测试数据
